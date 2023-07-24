@@ -8,11 +8,11 @@
 		<version>2.7.14</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>co.simplon.itp3.supportrequest</groupId>
-	<artifactId>supportrequest-api</artifactId>
+	<groupId>co.simplon.itp3.stor</groupId>
+	<artifactId>storage-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>itp3-storage-api</name>
-	<description>Spring boot IT P3 support request API</description>
+	<description>Spring boot IT P3 storage API</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

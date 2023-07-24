@@ -1,4 +1,4 @@
-package co.simplon.itp3.supportrequest;
+package co.simplon.itp3.storageapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
