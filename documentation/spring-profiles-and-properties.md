@@ -62,5 +62,7 @@ Yes. For instance we can have a properties file for the dev environment and for 
 
 You can use variables in your application.properties file. 
 For example, you can to add custom properties to JWT token in your file properties, containing :
+
+
 ![image](https://github.com/Frank-readresolve/itp3-dist-arch/assets/94375151/f5c0b6be-6a0b-4bee-a2b2-a21954008287)
 
