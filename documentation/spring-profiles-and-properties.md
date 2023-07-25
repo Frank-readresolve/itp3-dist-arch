@@ -6,7 +6,7 @@ Spring Profile map **beans** \* to different profiles (dev, test, prod for examp
 
 - Beans are objects that are instanciated, assembled and handled by Spring IoC Containers (IoC stands for Inversion of Control). When these objects are created, Spring injects the beans in order to create the dependences between each other.
 
-- ([source]([https://docs.spring.io/spring-boot/docs/1.2.0.M1/reference/html/boot-features-profiles.html#boot-features-profiles](https://www.baeldung.com/spring-profiles)))
+- ([source](<[https://docs.spring.io/spring-boot/docs/1.2.0.M1/reference/html/boot-features-profiles.html#boot-features-profiles](https://www.baeldung.com/spring-profiles)>))
 
 ### To use Spring Profiles
 
@@ -33,7 +33,7 @@ Therefore we can define a default profile by ourselves.
 
 ## How to specify a profile when running an app from command line?
 
-In the case we want to use the dev profile, specify on the command line using the switch `--spring.profiles.active=dev` 
+In the case we want to use the dev profile, specify on the command line using the switch `--spring.profiles.active=dev`
 
 ([source](https://docs.spring.io/spring-boot/docs/1.2.0.M1/reference/html/boot-features-profiles.html#boot-features-profiles))
 
@@ -45,14 +45,12 @@ In Eclipse, right click on your project.
 - "Run configuration"
 
 ![Run configuration](./images/spring-profiles-01.png)
-  
+
 - In the "Spring profile" part of this window, select the desired profile in "Profile".
 
 - ![Run configuration](./images/spring-profiles-02.png)
 
 ## Can we "mix" profiles, e.g. default + production?
-
-
 
 ## Can we have multiple properties files?
 
@@ -60,9 +58,7 @@ Yes. For instance we can have a properties file for the dev environment and for 
 
 ## Can we use variables in properties files?
 
-You can use variables in your application.properties file. 
+You can use variables in your application.properties file.
 For example, you can to add custom properties to JWT token in your file properties, containing :
 
-
 ![image](https://github.com/Frank-readresolve/itp3-dist-arch/assets/94375151/f5c0b6be-6a0b-4bee-a2b2-a21954008287)
-
