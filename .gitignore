@@ -1,0 +1,11 @@
+!/src/main//target/
+!/src/test//target/
+
+.DSStore
+.vscode/*
+.classpath
+.project
+.settings
+/application.properties
+.history/
+.gitignore*
