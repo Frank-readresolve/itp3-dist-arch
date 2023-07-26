@@ -15,9 +15,9 @@ public class Controller {
     @Value("${supportrequest-api.commun}")
     private String commun;
 
-    @GetMapping("/test")
-    public String test() {
-	String result = profile + commun;
+    @GetMapping("/profile")
+    public String getProfile() {
+	String result = profile + " " + commun;
 	return result;
     }
 
