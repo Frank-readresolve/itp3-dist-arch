@@ -52,6 +52,8 @@ In Eclipse, right click on your project.
 
 ## Can we "mix" profiles, e.g. default + production?
 
+We can't mix profiles but we can use different properties files with a same profile (for instance use some properties from a default application.properties and some properties from a properties file made for the specific environment, such as application-dev.properties).
+
 ## Can we have multiple properties files?
 
 Yes. For instance we can have a properties file for the dev environment and for the prod environment.
