@@ -1,0 +1,17 @@
+2023-07-28 14:32:05.733 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'resourceUrlProvider': [resourceHandlerMapping]
+2023-07-28 14:32:05.736 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'webFluxValidator': [requestMappingHandlerAdapter]
+2023-07-28 14:32:05.736 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invoking destroy() on bean with name 'webFluxValidator'
+2023-07-28 14:32:05.736 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'adaptCachedBodyGlobalFilter': [filteringWebHandler]
+2023-07-28 14:32:05.736 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'filteringWebHandler': [routePredicateHandlerMapping]
+2023-07-28 14:32:05.737 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'weightCalculatorWebFilter': [weightRoutePredicateFactory]
+2023-07-28 14:32:05.737 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'weightRoutePredicateFactory': [routeDefinitionRouteLocator]
+2023-07-28 14:32:05.737 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'gatewayHttpClientFactory': [routingFilter, reactorNettyWebSocketClient]
+2023-07-28 14:32:05.737 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'reactorNettyWebSocketClient': [websocketRoutingFilter]
+2023-07-28 14:32:05.737 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invoking destroy() on bean with name 'gatewayHttpClientFactory'
+2023-07-28 14:32:05.737 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration': [simpleDiscoveryClient, simpleDiscoveryProperties]
+2023-07-28 14:32:05.737 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'simpleDiscoveryClient': [compositeDiscoveryClient]
+2023-07-28 14:32:05.738 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invoking close() on bean with name 'inetUtils'
+2023-07-28 14:32:05.738 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invoking destroy() on bean with name 'defaultValidator'
+2023-07-28 14:32:05.738 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invoking destroy() on bean with name 'reactorResourceFactory'
+2023-07-28 14:32:05.744 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invoking destroy() on bean with name 'refreshScope'
+2023-07-28 14:32:05.744 TRACE 19460 --- [RMI TCP Connection(7)-127.0.0.1] o.s.b.f.s.DefaultListableBeanFactory     : Retrieved dependent beans for bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': [org.springframework.context.annotation.internalConfigurationAnnotationProcessor]

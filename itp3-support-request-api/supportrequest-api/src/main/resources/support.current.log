@@ -1,0 +1,120 @@
+2023-07-28 12:18:59.578 DEBUG 1736 --- [RMI TCP Connection(39)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(39)-127.0.0.1: (port 62677) op = 80
+2023-07-28 12:18:59.586 DEBUG 1736 --- [RMI TCP Connection(39)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  2
+2023-07-28 12:19:29.486 DEBUG 1736 --- [RMI TCP Connection(39)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(39)-127.0.0.1: (port 62677) connection closed
+2023-07-28 12:19:29.487 DEBUG 1736 --- [RMI TCP Connection(39)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(39)-127.0.0.1: close connection
+2023-07-28 12:19:55.593 DEBUG 1736 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1690539595593 sessioncount 0
+2023-07-28 12:19:55.593 DEBUG 1736 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2023-07-28 12:19:59.595 DEBUG 1736 --- [RMI TCP Connection(40)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(40)-127.0.0.1: accepted socket from [127.0.0.1:63182]
+2023-07-28 12:19:59.597 DEBUG 1736 --- [RMI TCP Connection(40)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(40)-127.0.0.1: (port 62677) op = 80
+2023-07-28 12:19:59.598 DEBUG 1736 --- [RMI TCP Connection(40)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  2
+2023-07-28 12:20:14.600 DEBUG 1736 --- [RMI TCP Connection(40)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(40)-127.0.0.1: (port 62677) connection closed
+2023-07-28 12:20:14.600 DEBUG 1736 --- [RMI TCP Connection(40)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(40)-127.0.0.1: close connection
+2023-07-28 12:20:55.643 DEBUG 1736 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1690539655643 sessioncount 0
+2023-07-28 12:20:55.644 DEBUG 1736 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2023-07-28 12:20:59.608 DEBUG 1736 --- [RMI TCP Connection(41)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(41)-127.0.0.1: accepted socket from [127.0.0.1:63186]
+2023-07-28 12:20:59.609 DEBUG 1736 --- [RMI TCP Connection(41)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(41)-127.0.0.1: (port 62677) op = 80
+2023-07-28 12:20:59.610 DEBUG 1736 --- [RMI TCP Connection(41)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  2
+2023-07-28 12:21:14.612 DEBUG 1736 --- [RMI TCP Connection(41)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(41)-127.0.0.1: (port 62677) connection closed
+2023-07-28 12:21:14.613 DEBUG 1736 --- [RMI TCP Connection(41)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(41)-127.0.0.1: close connection
+2023-07-28 12:21:55.708 DEBUG 1736 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1690539715707 sessioncount 0
+2023-07-28 12:21:55.715 DEBUG 1736 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 8 expired sessions: 0
+2023-07-28 12:21:59.620 DEBUG 1736 --- [RMI TCP Connection(42)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(42)-127.0.0.1: accepted socket from [127.0.0.1:63201]
+2023-07-28 12:21:59.621 DEBUG 1736 --- [RMI TCP Connection(42)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(42)-127.0.0.1: (port 62677) op = 80
+2023-07-28 12:21:59.622 DEBUG 1736 --- [RMI TCP Connection(42)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  2
+2023-07-28 12:22:14.623 DEBUG 1736 --- [RMI TCP Connection(42)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(42)-127.0.0.1: (port 62677) connection closed
+2023-07-28 12:22:14.624 DEBUG 1736 --- [RMI TCP Connection(42)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(42)-127.0.0.1: close connection
+2023-07-28 12:22:55.775 DEBUG 1736 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1690539775775 sessioncount 0
+2023-07-28 12:22:55.775 DEBUG 1736 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2023-07-28 12:22:59.631 DEBUG 1736 --- [RMI TCP Connection(43)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(43)-127.0.0.1: accepted socket from [127.0.0.1:63211]
+2023-07-28 12:22:59.633 DEBUG 1736 --- [RMI TCP Connection(43)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(43)-127.0.0.1: (port 62677) op = 80
+2023-07-28 12:22:59.634 DEBUG 1736 --- [RMI TCP Connection(43)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  2
+2023-07-28 12:23:14.636 DEBUG 1736 --- [RMI TCP Connection(43)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(43)-127.0.0.1: (port 62677) connection closed
+2023-07-28 12:23:14.636 DEBUG 1736 --- [RMI TCP Connection(43)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(43)-127.0.0.1: close connection
+2023-07-28 12:23:55.826 DEBUG 1736 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1690539835826 sessioncount 0
+2023-07-28 12:23:55.828 DEBUG 1736 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2023-07-28 12:23:59.481 DEBUG 1736 --- [RMI TCP Connection(44)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(44)-127.0.0.1: accepted socket from [127.0.0.1:63238]
+2023-07-28 12:23:59.481 DEBUG 1736 --- [RMI TCP Connection(44)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(44)-127.0.0.1: (port 62677) op = 80
+2023-07-28 12:23:59.482 DEBUG 1736 --- [RMI TCP Connection(44)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(44)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6b5f133d
+2023-07-28 12:23:59.482 DEBUG 1736 --- [RMI TCP Connection(44)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(44)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6b5f133d
+2023-07-28 12:23:59.482 DEBUG 1736 --- [RMI TCP Connection(44)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(44)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6b5f133d
+2023-07-28 12:23:59.483 DEBUG 1736 --- [RMI TCP Connection(44)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(44)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6b5f133d
+2023-07-28 12:23:59.483 DEBUG 1736 --- [RMI TCP Connection(44)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(44)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6b5f133d
+2023-07-28 12:23:59.637 DEBUG 1736 --- [RMI TCP Connection(44)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(44)-127.0.0.1: (port 62677) op = 82
+2023-07-28 12:23:59.637 DEBUG 1736 --- [RMI TCP Connection(44)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(44)-127.0.0.1: (port 62677) op = 80
+2023-07-28 12:23:59.637 DEBUG 1736 --- [RMI TCP Connection(44)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  2
+2023-07-28 12:24:29.485 DEBUG 1736 --- [RMI TCP Connection(44)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(44)-127.0.0.1: (port 62677) connection closed
+2023-07-28 12:24:29.486 DEBUG 1736 --- [RMI TCP Connection(44)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(44)-127.0.0.1: close connection
+2023-07-28 12:24:55.874 DEBUG 1736 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1690539895874 sessioncount 0
+2023-07-28 12:24:55.875 DEBUG 1736 --- [Catalina-utility-2] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2023-07-28 12:24:59.654 DEBUG 1736 --- [RMI TCP Connection(45)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(45)-127.0.0.1: accepted socket from [127.0.0.1:63241]
+2023-07-28 12:24:59.655 DEBUG 1736 --- [RMI TCP Connection(45)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(45)-127.0.0.1: (port 62677) op = 80
+2023-07-28 12:24:59.655 DEBUG 1736 --- [RMI TCP Connection(45)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  2
+2023-07-28 12:25:14.657 DEBUG 1736 --- [RMI TCP Connection(45)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(45)-127.0.0.1: (port 62677) connection closed
+2023-07-28 12:25:14.658 DEBUG 1736 --- [RMI TCP Connection(45)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(45)-127.0.0.1: close connection
+2023-07-28 12:25:55.921 DEBUG 1736 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1690539955921 sessioncount 0
+2023-07-28 12:25:55.922 DEBUG 1736 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2023-07-28 12:25:59.660 DEBUG 1736 --- [RMI TCP Connection(46)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(46)-127.0.0.1: accepted socket from [127.0.0.1:63245]
+2023-07-28 12:25:59.661 DEBUG 1736 --- [RMI TCP Connection(46)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(46)-127.0.0.1: (port 62677) op = 80
+2023-07-28 12:25:59.661 DEBUG 1736 --- [RMI TCP Connection(46)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  2
+2023-07-28 12:26:14.662 DEBUG 1736 --- [RMI TCP Connection(46)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(46)-127.0.0.1: (port 62677) connection closed
+2023-07-28 12:26:14.662 DEBUG 1736 --- [RMI TCP Connection(46)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(46)-127.0.0.1: close connection
+2023-07-28 12:26:56.003 DEBUG 1736 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1690540016003 sessioncount 0
+2023-07-28 12:26:56.005 DEBUG 1736 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2023-07-28 12:26:59.668 DEBUG 1736 --- [RMI TCP Connection(47)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(47)-127.0.0.1: accepted socket from [127.0.0.1:63269]
+2023-07-28 12:26:59.669 DEBUG 1736 --- [RMI TCP Connection(47)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(47)-127.0.0.1: (port 62677) op = 80
+2023-07-28 12:26:59.670 DEBUG 1736 --- [RMI TCP Connection(47)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  2
+2023-07-28 12:27:14.671 DEBUG 1736 --- [RMI TCP Connection(47)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(47)-127.0.0.1: (port 62677) connection closed
+2023-07-28 12:27:14.672 DEBUG 1736 --- [RMI TCP Connection(47)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(47)-127.0.0.1: close connection
+2023-07-28 12:27:49.857 DEBUG 1736 --- [RMI TCP Connection(48)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(48)-127.0.0.1: accepted socket from [127.0.0.1:63285]
+2023-07-28 12:27:49.859 DEBUG 1736 --- [RMI TCP Connection(48)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(48)-127.0.0.1: (port 62673) op = 80
+2023-07-28 12:27:49.861 DEBUG 1736 --- [RMI TCP Connection(48)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(48)-127.0.0.1: (port 62673) op = 84
+2023-07-28 12:27:49.867 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(49)-127.0.0.1: accepted socket from [127.0.0.1:63286]
+2023-07-28 12:27:49.869 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(49)-127.0.0.1: (port 62677) op = 80
+2023-07-28 12:27:49.872 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(49)-127.0.0.1: (port 62677) op = 80
+2023-07-28 12:27:49.873 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(49)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6b5f133d
+2023-07-28 12:27:49.873 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(49)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6b5f133d
+2023-07-28 12:27:49.874 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(49)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6b5f133d
+2023-07-28 12:27:49.875 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(49)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6b5f133d
+2023-07-28 12:27:49.876 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(49)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6b5f133d
+2023-07-28 12:27:49.876 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(49)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6b5f133d
+2023-07-28 12:27:49.877 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(49)-127.0.0.1: (port 62677) op = 84
+2023-07-28 12:27:49.878 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(49)-127.0.0.1: (port 62677) op = 80
+2023-07-28 12:27:49.881 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(49)-127.0.0.1: (port 62677) op = 80
+2023-07-28 12:27:49.881 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(49)-127.0.0.1: name = "javax.management.ObjectName", codebase = ""
+2023-07-28 12:27:49.882 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(49)-127.0.0.1: name = "java.rmi.MarshalledObject", codebase = ""
+2023-07-28 12:27:49.886 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  3 unwrapping params with MBean extended ClassLoader.
+2023-07-28 12:27:49.912 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  3, name=org.springframework.boot:type=Admin,name=SpringApplication, operationName=shutdown, signature=null
+2023-07-28 12:27:49.915  INFO 1736 --- [RMI TCP Connection(49)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-07-28 12:27:49.920 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2023-07-28 12:27:49.922 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] onfigReactiveWebServerApplicationContext : Closing org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@1cd201a8, started on Fri Jul 28 11:37:26 CEST 2023
+2023-07-28 12:27:49.950 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2023-07-28 12:27:49.955 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerGracefulShutdown' completed its stop procedure
+2023-07-28 12:27:49.955 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483646
+2023-07-28 12:27:50.154 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] org.apache.tomcat.util.net.NioEndpoint   : About to unlock socket for:/0:0:0:0:0:0:0:1:8080
+2023-07-28 12:27:50.161 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] org.apache.tomcat.util.net.NioEndpoint   : Socket unlock completed for:/0:0:0:0:0:0:0:1:8080
+2023-07-28 12:27:50.162  INFO 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-28 12:27:50.166 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.apache.catalina.mapper.MapperListener  : Unregister host [localhost] at domain [null] for service [StandardService[Tomcat]]
+2023-07-28 12:27:50.167 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.apache.catalina.mapper.MapperListener  : Unregister Context [] for service [StandardService[Tomcat]]
+2023-07-28 12:27:50.167 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.apache.catalina.mapper.MapperListener  : Unregister Wrapper [httpHandlerServlet] in Context [] for service [StandardService[Tomcat]]
+2023-07-28 12:27:50.168 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Stopping filters
+2023-07-28 12:27:50.168 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+2023-07-28 12:27:50.169 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.a.c.core.ApplicationFilterConfig       : JMX de-registration complete for filter of type [org.apache.tomcat.websocket.server.WsFilter] and name [Tomcat WebSocket (JSR356) Filter]
+2023-07-28 12:27:50.170 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.a.catalina.session.StandardManager     : Stopping
+2023-07-28 12:27:50.170 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.a.catalina.session.StandardManager     : Unloading persisted sessions
+2023-07-28 12:27:50.170 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.a.catalina.session.StandardManager     : No persisted sessions to unload
+2023-07-28 12:27:50.171 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.apache.catalina.core.StandardContext   : Sending application stop events
+2023-07-28 12:27:50.173 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.apache.catalina.core.StandardContext   : Processing standard container shutdown
+2023-07-28 12:27:50.174 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] org.apache.catalina.loader.WebappLoader  : Stopping this Loader
+2023-07-28 12:27:50.176 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : getResourceAsStream(org/apache/catalina/loader/JdbcLeakPrevention.class)
+2023-07-28 12:27:50.177 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       :   Delegating to parent classloader jdk.internal.loader.ClassLoaders$AppClassLoader@14899482
+2023-07-28 12:27:50.180 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       :   --> Returning stream from parent
+2023-07-28 12:27:50.193 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.apache.catalina.core.StandardContext   : resetContext Tomcat:j2eeType=WebModule,name=//localhost/,J2EEApplication=none,J2EEServer=none
+2023-07-28 12:27:50.193 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.apache.catalina.core.StandardContext   : Stopping complete
+2023-07-28 12:27:50.197 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] org.apache.tomcat.util.net.NioEndpoint   : Destroy initiated for 0.0.0.0/0.0.0.0:8080
+2023-07-28 12:27:50.198 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] org.apache.tomcat.util.net.NioEndpoint   : Destroy completed for 0.0.0.0/0.0.0.0:8080
+2023-07-28 12:27:50.200 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerStartStop' completed its stop procedure
+2023-07-28 12:27:50.200 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2023-07-28 12:27:50.200 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147483647
+2023-07-28 12:27:50.201 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Bean 'springBootLoggingLifecycle' completed its stop procedure
+2023-07-28 12:27:50.205 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2023-07-28 12:27:50.206 DEBUG 1736 --- [RMI TCP Connection(49)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
