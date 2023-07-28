@@ -53,7 +53,7 @@ export default {
         //     return null;
         // },
         async send() {
-            const url = "http://localhost:8080/stickers";
+            const url = "http://localhost:8080/support-request";
             const method = "POST";
             const data = this.inputs;
             const options = {
