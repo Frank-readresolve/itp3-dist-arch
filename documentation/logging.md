@@ -12,6 +12,7 @@ The most common locations for logging are the console (standard output) and file
 **Console** (Standard Output): Logging to the console involves printing log messages directly to the standard output stream. In many programming languages, this is often accomplished using functions like console.log() in JavaScript. Logging to the console is useful during development and debugging phases when developers need real-time visibility. into the application's behavior( you can see the messages immediately.) However, it's essential to avoid excessive logging in production environments as it may impact performance and security.
 
 **File Logging**: Writing log messages to files is a common practice in production environments. Each log entry is appended to a designated log file. You can view them later and search through them in a text editor. Additionally, it keeps the logs separate from the application, which can be helpful for debugging when applications crash or encounter issues. However, managing log files over time (e.g., rotating logs to prevent them from growing too large) is crucial to avoid disk space issues.
+![image](https://github.com/Frank-readresolve/itp3-dist-arch/assets/94375151/4ddc26b5-0f36-460d-9178-32ad713e8f31)
 
 ---
 
@@ -69,6 +70,37 @@ In a Spring Boot application, you can configure logging using the application.pr
 By default, Spring Boot uses Logback as the logging framework.
 
 **Logback** is one of the most widely used logging frameworks in the Java Community. It's a replacement for its predecessor, Log4j.
+
+## Implementation 
+
+Basically, you just need to specify the following two lines in the application.properties file to enable daily rolling files logging:
+
+First, you have to specify the file name
+
+ logging.file.name=${supportrequest.logs.file.location}/${supportrequest.logs.file.name}.current.log
+
+ Here, the first property specifies the original log file name, and the second one specifies the pattern for the files which will be rolled out the next days (daily rolling). In the pattern, I append date format %d{yyyy-MM-dd} and the ordinal number of the log file (%i) to the file name (MyApp-)
+
+ logging.logback.rollingpolicy.file-name-pattern=${supportrequest.logs.file.location}/${supportrequest.logs.file.name}.%d{yyyy-MM-dd}.%i.log.gz
+Rolling policy: A rolling policy must be set based on max file size and total size cap
+
+You can also specify a threshold for log file size using the following property
+
+ logging.logback.rollingpolicy.max-file-size=25KB
+You can control the total size of all log files under a specified number, by using the following property:
+
+ logging.logback.rollingpolicy.total-size-cap=60KB
+ 
+Optional :
+
+logging.file.clean-history-on-start=true
+
+So when our Spring Boot application starts, Logback will clean the old log files based on the values of total size and max history. This property is set to false by default.
+
+The result that should be displayed is as follows: 
+
+![image](https://github.com/Frank-readresolve/itp3-dist-arch/assets/94375151/60ba49e9-b703-4c3b-95bc-fcdf262acd43)
+
 
 ## References
 
