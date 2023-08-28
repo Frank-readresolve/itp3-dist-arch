@@ -117,3 +117,27 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'su
 2023-07-27 14:34:24.375  INFO 12124 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
 2023-07-27 14:34:25.063  INFO 12124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2023-07-27 14:34:25.688  INFO 12124 --- [main] c.s.i.s.Itp3SupportRequestApiApplication : Started Itp3SupportRequestApiApplication in 4.917 seconds (JVM running for 6.006)
+2023-07-27 16:37:29.806  INFO 5788 --- [main] c.s.i.s.Itp3SupportRequestApiApplication : Starting Itp3SupportRequestApiApplication using Java 11.0.17 on DESKTOP-UJGQVFC with PID 5788 (C:\Users\Ordi\Desktop\itp3-dist-arch\itp3-support-request-api\target\classes started by Ordi in C:\Users\Ordi\Desktop\itp3-dist-arch\itp3-support-request-api)
+2023-07-27 16:37:29.812  INFO 5788 --- [main] c.s.i.s.Itp3SupportRequestApiApplication : The following 1 profile is active: "prod"
+2023-07-27 16:37:30.965  INFO 5788 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3411a395-8540-32a7-ad82-7195371f8458
+2023-07-27 16:37:31.335  INFO 5788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-27 16:37:31.351  INFO 5788 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-27 16:37:31.351  INFO 5788 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-07-27 16:37:32.566  INFO 5788 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-07-27 16:37:32.567  INFO 5788 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-07-27 16:37:32.567  INFO 5788 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-07-27 16:37:32.568  INFO 5788 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-07-27 16:37:32.568  INFO 5788 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-07-27 16:37:32.568  INFO 5788 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-07-27 16:37:32.569  INFO 5788 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-07-27 16:37:32.569  INFO 5788 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-07-27 16:37:32.569  INFO 5788 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-07-27 16:37:32.570  INFO 5788 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-07-27 16:37:32.570  INFO 5788 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-07-27 16:37:32.570  INFO 5788 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-07-27 16:37:32.571  INFO 5788 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-07-27 16:37:32.571  INFO 5788 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-07-27 16:37:33.258  INFO 5788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-27 16:37:33.867  INFO 5788 --- [main] c.s.i.s.Itp3SupportRequestApiApplication : Started Itp3SupportRequestApiApplication in 4.953 seconds (JVM running for 6.035)
+2023-07-27 16:50:04.479  INFO 5788 --- [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-07-27 16:50:04.663  INFO 5788 --- [RMI TCP Connection(16)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
