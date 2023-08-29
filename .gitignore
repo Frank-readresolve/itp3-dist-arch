@@ -1,11 +1,3 @@
-# Spring
-
-application-dev.properties
-.classpath
-.project
-.settings
-.target
-
 # Logs
 logs
 *.log
