@@ -11,6 +11,7 @@ export default {
   },
   data() {
     return {
+        baseUrl: import.meta.env.VITE_API_BASE_URL,
       inputs: {
         Email: null,
         Subject: null,
@@ -49,7 +50,7 @@ export default {
     //     return null;
     // },
     async send() {
-      const url = "http://localhost:8081/storage-api/support-res";
+      const url = "`${this.baseURL}/storage-api/support-res`";
       const method = "POST";
       const data = this.inputs;
       const options = {
