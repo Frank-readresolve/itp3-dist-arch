@@ -1,23 +1,23 @@
 <script>
-import { useVuelidate } from "@vuelidate/core";
-import { required, maxLength, email } from "@vuelidate/validators";
+import { useVuelidate } from '@vuelidate/core'
+import { required, maxLength, email } from '@vuelidate/validators'
 
 export default {
   setup() {
-    const validator = useVuelidate();
+    const validator = useVuelidate()
     return {
       validator,
-    };
+    }
   },
   data() {
     return {
-        baseUrl: import.meta.env.VITE_API_BASE_URL,
+      baseUrl: import.meta.env.VITE_API_BASE_URL,
       inputs: {
         Email: null,
         Subject: null,
         Description: null,
       },
-    };
+    }
   },
   validations() {
     return {
@@ -26,17 +26,17 @@ export default {
         Subject: { required, maxLength: maxLength(100) },
         Description: { required, maxLength: maxLength(1000) },
       },
-    };
+    }
   },
   methods: {
     async submitForm() {
-      const valid = await this.validator.$validate();
+      const valid = await this.validator.$validate()
       if (valid) {
-        const response = await this.send();
-        console.log("submit form");
+        const response = await this.send()
+        console.log('submit form')
         if (response) {
-          Object.assign(this.$data.inputs, this.$options.data().inputs);
-          this.validator.$reset();
+          Object.assign(this.$data.inputs, this.$options.data().inputs)
+          this.validator.$reset()
         }
       }
     },
@@ -50,30 +50,30 @@ export default {
     //     return null;
     // },
     async send() {
-      const url = "`${this.baseURL}/storage-api/support-res`";
-      const method = "POST";
-      const data = this.inputs;
+      const url = '`${this.baseURL}/storage-api/support-res`'
+      const method = 'POST'
+      const data = this.inputs
       const options = {
         method: method,
-      };
-      options.body = JSON.stringify(data);
+      }
+      options.body = JSON.stringify(data)
       options.headers = {
-        "Content-Type": "application/json",
-      };
-      const response = await fetch(url, options);
+        'Content-Type': 'application/json',
+      }
+      const response = await fetch(url, options)
       if (response.status == 204) {
-        return true;
+        return true
       } else {
-        return false;
+        return false
       }
     },
   },
-};
+}
 </script>
 
 <template>
   <h1>Submit Form</h1>
-  <form @submit.prevent="submitForm">
+  <form novalidate @submit.prevent="submitForm">
     <div>
       <label for="Email" class="form-label">Email :</label>
       <br />
