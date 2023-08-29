@@ -1,123 +1,102 @@
 <script>
-import { useVuelidate } from "@vuelidate/core";
-import { required, maxLength, email } from "@vuelidate/validators";
+import { useVuelidate } from '@vuelidate/core'
+import { required, maxLength, email } from '@vuelidate/validators'
 
 export default {
   setup() {
-    const validator = useVuelidate();
     return {
-      validator,
-    };
+      validator: useVuelidate({ $autoDirty: true }),
+    }
   },
   data() {
     return {
       inputs: {
-        Email: null,
-        Subject: null,
-        Description: null,
+        email: null,
+        subject: null,
+        description: null,
       },
-    };
+    }
   },
   validations() {
     return {
       inputs: {
-        Email: { required, email },
-        Subject: { required, maxLength: maxLength(100) },
-        Description: { required, maxLength: maxLength(1000) },
+        email: { required, email },
+        subject: { required, maxLength: maxLength(100) },
+        description: { required, maxLength: maxLength(1000) },
       },
-    };
+    }
   },
   methods: {
-    async submitForm() {
-      const valid = await this.validator.$validate();
-      if (valid) {
-        const response = await this.send();
-        console.log("submit form");
-        if (response) {
-          Object.assign(this.$data.inputs, this.$options.data().inputs);
-          this.validator.$reset();
-        }
-      }
-    },
-    // async get(endpoint) {
-    //     const url = `http://localhost:8080/${endpoint}`;
-    //     const response = await fetch(url);
-    //     const header = response.headers;
-    //     if (header.get("content-type") == "application/json") {
-    //         return await response.json();
-    //     }
-    //     return null;
-    // },
-    async send() {
-      const url = "http://localhost:8081/storage-api/support-res";
-      const method = "POST";
-      const data = this.inputs;
-      const options = {
-        method: method,
-      };
-      options.body = JSON.stringify(data);
-      options.headers = {
-        "Content-Type": "application/json",
-      };
-      const response = await fetch(url, options);
-      if (response.status == 204) {
-        return true;
+    async submit() {
+      const resp = await this.$http.post('/support-request', this.inputs)
+      if (resp.status === 204) {
+        Object.assign(this.inputs, this.$options.data().inputs)
+        this.validator.$reset()
       } else {
-        return false;
+        console.error(resp)
       }
     },
   },
-};
+}
+// async get(endpoint) {
+//     const url = `http://localhost:8080/${endpoint}`;
+//     const response = await fetch(url);
+//     const header = response.headers;
+//     if (header.get("content-type") == "application/json") {
+//         return await response.json();
+//     }
+//     return null;
+// },
 </script>
 
 <template>
   <h1>Submit Form</h1>
-  <form @submit.prevent="submitForm">
+  <form novalidate @submit.prevent="submit">
     <div>
-      <label for="Email" class="form-label">Email :</label>
+      <label for="email" class="form-label">Email :</label>
       <br />
       <input
         type="email"
         class="form-control"
-        :class="{ 'is-invalid': validator.inputs.Email.$error }"
-        id="Email"
-        name="Email"
-        v-model="inputs.Email"
+        :class="{ 'is-invalid': validator.inputs.email.$error }"
+        id="email"
+        name="email"
+        v-model="inputs.email"
       />
-      <span v-if="validator.inputs.Email.$error">
-        {{ validator.inputs.Email.$errors[0].$message }}
+      <span v-if="validator.inputs.email.$error">
+        {{ validator.inputs.email.$errors[0].$message }}
       </span>
     </div>
     <br />
     <div>
-      <label for="Subject" class="form-label">Subject :</label>
+      <label for="subject" class="form-label">Subject :</label>
       <br />
       <input
         type="text"
         class="form-control"
-        :class="{ 'is-invalid': validator.inputs.Subject.$error }"
-        name="Subject"
-        id="Subject"
-        v-model="inputs.Subject"
+        :class="{ 'is-invalid': validator.inputs.subject.$error }"
+        name="subject"
+        id="subject"
+        v-model="inputs.subject"
       />
-      <span v-if="validator.inputs.Subject.$error">
-        {{ validator.inputs.Subject.$errors[0].$message }}
+      <span v-if="validator.inputs.subject.$error">
+        {{ validator.inputs.subject.$errors[0].$message }}
       </span>
     </div>
     <br />
     <div>
-      <label for="Description" class="form-label">Description :</label>
+      <label for="description" class="form-label">Description :</label>
       <br />
       <textarea
         class="form-control"
-        :class="{ 'is-invalid': validator.inputs.Description.$error }"
-        id="Description"
-        name="Description"
+        :class="{ 'is-invalid': validator.inputs.description.$error }"
+        id="description"
+        name="description"
         rows="3"
-        v-model="inputs.Description"
+        v-model="inputs.description"
       ></textarea>
-      <span v-if="validator.inputs.Description.$error">
-        {{ validator.inputs.Description.$errors[0].$message }}
+      <span v-if="validator.inputs.description.$error">
+        {{ validator.inputs.description.$errors[0].$message }}
       </span>
     </div>
 
