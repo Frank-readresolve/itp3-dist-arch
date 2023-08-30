@@ -5,8 +5,6 @@ import axios from './plugins/axios';
 
 const app = createApp(App)
 
-
-
 app.use(router)
 app.use(axios)
 app.mount('#app')
