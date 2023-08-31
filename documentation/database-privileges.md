@@ -14,9 +14,13 @@ There are different kinds of privileges: SELECT, INSERT, UPDATE, DELETE, TRUNCAT
 ### Default privileges
 
 **Ownership:**
-The right to modify or destroy an object is inherent in being the object's owner, and cannot be granted or revoked in itself. However, like all privileges, that right can be inherited by members of the owning role
+The right to modify or destroy an object is inherent in being the object's owner, and cannot be granted or revoked in itself. However, like all privileges, that right can be inherited by members of the owning role.
 
 ### Public schema
+
+The public schema has particular protections. In order to override them, use:
+
+`GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO username;` (be careful to choose the privileges that apply in your context).
 
 ## How to grant database privileges
 
@@ -33,7 +37,7 @@ The right to modify or destroy an object is inherent in being the object's owner
 
 Examples:
 
-`GRANT USAGE, SELECT, INSERT, UPDATE, DELETE ON TABLE table_name TO username;` grant privileges on a table.
+`GRANT SELECT, INSERT, UPDATE, DELETE ON TABLE table_name TO username;` grant privileges on a table.
 `GRANT USAGE, SELECT, INSERT, UPDATE, DELETE ON SEQUENCE table_name_id_seq TO username;` grant privileges on a sequence on a table.
 
 `GRANT ALL ON DATABASE database_name TO username;` grant all privileges on a database. Not on public schema unless specified though.
