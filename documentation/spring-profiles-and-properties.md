@@ -151,15 +151,19 @@ Sets the maximum allowed size for an individual uploaded file
 ## API GateWay Configuration
 
 spring.cloud.gateway.routes[0].id=<APP_ID>
+
 sets the ID for the first route
 
 spring.cloud.gateway.routes[0].uri=<MicroS_URI>
+
 This defines the target URI (Uniform Resource Identifier) for the route. Incoming requests that match the specified predicates will be forwarded to this URI.
 
 spring.cloud.gateway.routes[0].predicates[0]=Path=/predicate-example/\*\*
+
 Predicates define the conditions under which a route should be executed. Here, the route will be executed if the incoming request path matches /predicate-example/
 
 spring.cloud.gateway.routes[0].filters[0]=StripPrefix=1
+
 Filters allow you to modify the request or response before or after routing. The StripPrefix=1 filter is applied to this route. It means that the first segment of the path is removed before the request is forwarded.
 /example-predicate/resource, after applying this filter, it will become /resource.
 
