@@ -97,7 +97,7 @@ Specifies the port on which the embedded web server will listen for incoming req
 
 sets the root log level
 
-`logging.pattern.console<Log_partern>`
+`logging.pattern.console<Log_pattern>`
 
 used to define the format of log messages that are displayed in the console
 
