@@ -95,39 +95,58 @@ logging.pattern.console<Log_partern>
 used to define the format of log messages that are displayed in the console
 
 OFF => No logging
+
 FATAL => (or CRITICAL) The most severe log level. Reserved for critical errors that lead to application failure or shutdown.
+
 ERROR => Represents errors in the application that do not prevent it from functioning
+
 WARN => Indicates potentially problematic situations that are not errors but might require attention.
+
 INFO => Used to convey important, normal runtime information
+
 DEBUG => Messages that provide information for debugging purposes.
+
 TRACE => The most detailed log level.
 
 **logging.file.name=app_name/logs/** P
+
 Used to configure the name and location of the log file
 
 **logging.logback.rollingpolicy.max-file-size=27KB** P
+
 Configure the maximum size of log files
 
 **logging.logback.rollingpolicy.total-size-cap=270KB** P
+
 Total size of all log files under a specified number
 
 **logging.logback.rollingpolicy.max-history=7** P
+
 Indicates that you want to keep a history of log files for the last 7 rotations.
 
-Java Persistence API (JPA) is used for interacting with databases in Java applications.
+### Java Persistence API (JPA) is used for interacting with databases in Java applications.
 
 **spring.jpa.show-sql=true** D
+
 Hibernate will log the SQL statements in the application's log output. (true dev & false prod)
 
 **spring.jpa.properties.hibernate.format_sql=true** D
+
 This property controls whether the SQL statements logged by Hibernate should be formatted
 
 ## Files Configuration
 
 spring.servlet.multipart.location=<SOME_PATH> D, P
-propriété
+
+This configuration specifies the location where uploaded files will be temporarily stored on the server before they are processed.
+
+copyme.uploads.location=<SOME_PATH> N
+
+final location
+
 spring.servlet.multipart.max-file-size=2MB N
-stickme.uploads.location=<SOME_PATH> N
+
+Sets the maximum allowed size for an individual uploaded file
 
 ## API GateWay Configuration
 
