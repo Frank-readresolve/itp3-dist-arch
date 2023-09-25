@@ -15,7 +15,7 @@ import co.simplon.itp3.supportrequest.dtos.CreateSupportRequestDto;
 @RequestMapping("/support-request")
 public class SupportRequestController {
     @PostMapping
-    @ResponseStatus(HttpStatus.CREATED)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     public void create(
 	    @RequestBody @Valid CreateSupportRequestDto inputs) {
 

@@ -29,6 +29,7 @@ export default {
   methods: {
     async submit() {
       const resp = await this.$http.post('/support-request', this.inputs)
+      // $http.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
       if (resp.status === 204) {
         Object.assign(this.inputs, this.$options.data().inputs)
         this.validator.$reset()
@@ -55,14 +56,8 @@ export default {
     <div>
       <label for="email" class="form-label">Email :</label>
       <br />
-      <input
-        type="email"
-        class="form-control"
-        :class="{ 'is-invalid': validator.inputs.email.$error }"
-        id="email"
-        name="email"
-        v-model="inputs.email"
-      />
+      <input type="email" class="form-control" :class="{ 'is-invalid': validator.inputs.email.$error }" id="email"
+        name="email" v-model="inputs.email" />
       <span v-if="validator.inputs.email.$error">
         {{ validator.inputs.email.$errors[0].$message }}
       </span>
@@ -71,14 +66,8 @@ export default {
     <div>
       <label for="subject" class="form-label">Subject :</label>
       <br />
-      <input
-        type="text"
-        class="form-control"
-        :class="{ 'is-invalid': validator.inputs.subject.$error }"
-        name="subject"
-        id="subject"
-        v-model="inputs.subject"
-      />
+      <input type="text" class="form-control" :class="{ 'is-invalid': validator.inputs.subject.$error }" name="subject"
+        id="subject" v-model="inputs.subject" />
       <span v-if="validator.inputs.subject.$error">
         {{ validator.inputs.subject.$errors[0].$message }}
       </span>
@@ -87,14 +76,8 @@ export default {
     <div>
       <label for="description" class="form-label">Description :</label>
       <br />
-      <textarea
-        class="form-control"
-        :class="{ 'is-invalid': validator.inputs.description.$error }"
-        id="description"
-        name="description"
-        rows="3"
-        v-model="inputs.description"
-      ></textarea>
+      <textarea class="form-control" :class="{ 'is-invalid': validator.inputs.description.$error }" id="description"
+        name="description" rows="3" v-model="inputs.description"></textarea>
       <span v-if="validator.inputs.description.$error">
         {{ validator.inputs.description.$errors[0].$message }}
       </span>
