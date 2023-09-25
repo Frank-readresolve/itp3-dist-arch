@@ -1,12 +1,12 @@
 <script>
-import { useVuelidate } from '@vuelidate/core'
-import { required, maxLength, email } from '@vuelidate/validators'
+import { useVuelidate } from "@vuelidate/core";
+import { required, maxLength, email } from "@vuelidate/validators";
 
 export default {
   setup() {
     return {
       validator: useVuelidate({ $autoDirty: true }),
-    }
+    };
   },
   data() {
     return {
@@ -15,7 +15,7 @@ export default {
         subject: null,
         description: null,
       },
-    }
+    };
   },
   validations() {
     return {
@@ -24,20 +24,20 @@ export default {
         subject: { required, maxLength: maxLength(100) },
         description: { required, maxLength: maxLength(1000) },
       },
-    }
+    };
   },
   methods: {
     async submit() {
-      const resp = await this.$http.post('/support-request', this.inputs)
+      const resp = await this.$http.post("/support-request", this.inputs);
       if (resp.status === 204) {
-        Object.assign(this.inputs, this.$options.data().inputs)
-        this.validator.$reset()
+        Object.assign(this.inputs, this.$options.data().inputs);
+        this.validator.$reset();
       } else {
-        console.error(resp)
+        console.error(resp);
       }
     },
   },
-}
+};
 // async get(endpoint) {
 //     const url = `http://localhost:8080/${endpoint}`;
 //     const response = await fetch(url);
