@@ -10,21 +10,25 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import co.simplon.itp3.supportrequest.dtos.CreateSupportRequestDto;
+import co.simplon.itp3.supportrequest.services.EmailService;
 
 @RestController
 @RequestMapping("/support-request")
 public class SupportRequestController {
+
+    private final EmailService emailService;
+
+    public SupportRequestController(
+	    EmailService emailService) {
+	this.emailService = emailService;
+    }
+
     @PostMapping
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void create(
 	    @RequestBody @Valid CreateSupportRequestDto inputs) {
 
-	CreateSupportRequestDto supportRequestDto = new CreateSupportRequestDto();
-	supportRequestDto.setEmail(inputs.getEmail());
-	supportRequestDto.setSubject(inputs.getSubject());
-	supportRequestDto
-		.setDescription(inputs.getDescription());
-	System.out.println(supportRequestDto);
+	emailService.mailSender(inputs);
 
     }
 
