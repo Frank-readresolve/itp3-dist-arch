@@ -1,25 +1,32 @@
 package co.simplon.itp3.storageapi.controllers;
 
-import org.springframework.web.bind.annotation.GetMapping;
+import javax.validation.Valid;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+import co.simplon.itp3.storageapi.dtos.Storage;
+import co.simplon.itp3.storageapi.services.StorageServiceImpl;
+
 @RestController
-@RequestMapping("/profiles")
-public class ControllerTest {
+@RequestMapping("/store-file")
+public class ControllerStorage {
 
-    private String profil = "Ca marche !";
+    private StorageServiceImpl service;
 
-    @GetMapping("/profile")
-    public String getProfile() {
-	return profil;
+    public ControllerStorage(StorageServiceImpl service) {
+	this.service = service;
     }
 
-    @PostMapping("/profile")
-    public void postProfile(@RequestBody String profile) {
-	System.out.println(profile);
+    @PostMapping
+    @ResponseStatus(HttpStatus.OK)
+    public void upload(
+	    @ModelAttribute @Valid Storage inputs) {
+	service.mailSender(inputs);
     }
 
 }
