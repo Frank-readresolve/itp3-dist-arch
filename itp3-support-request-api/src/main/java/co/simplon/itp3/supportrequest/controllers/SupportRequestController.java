@@ -1,4 +1,4 @@
-package co.simplon.itp3.supportrequest.controller;
+package co.simplon.itp3.supportrequest.controllers;
 
 import javax.validation.Valid;
 

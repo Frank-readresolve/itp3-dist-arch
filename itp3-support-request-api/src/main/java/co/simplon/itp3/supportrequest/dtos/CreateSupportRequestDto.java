@@ -1,8 +1,6 @@
 package co.simplon.itp3.supportrequest.dtos;
 
-
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 public class CreateSupportRequestDto {
@@ -17,11 +15,11 @@ public class CreateSupportRequestDto {
     @NotBlank
     @Size(max = 1000)
     private String description;
-    
+
     public CreateSupportRequestDto() {
-	
-}
-    
+
+    }
+
     public String getEmail() {
 	return email;
     }
@@ -29,7 +27,7 @@ public class CreateSupportRequestDto {
     public void setEmail(String email) {
 	this.email = email;
     }
-    
+
     public String getSubject() {
 	return subject;
     }
@@ -37,7 +35,7 @@ public class CreateSupportRequestDto {
     public void setSubject(String subject) {
 	this.subject = subject;
     }
-    
+
     public String getDescription() {
 	return description;
     }
@@ -52,7 +50,5 @@ public class CreateSupportRequestDto {
 		+ ", subject=" + subject + ", description="
 		+ description + "]";
     }
-    
- 
 
 }

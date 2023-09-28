@@ -1,0 +1,7 @@
+
+DROP TABLE IF EXISTS languages;
+
+CREATE TABLE languages (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL
+);
