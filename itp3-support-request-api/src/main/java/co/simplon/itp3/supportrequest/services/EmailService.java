@@ -15,7 +15,7 @@ public class EmailService {
 
     private final RestTemplate restTemplate;
 
-    private final String emailSenderUrl = "http://localhost:8083/send-mail";
+    private final String emailSenderUrl = "http://localhost:9102/send-mail";
 
     public EmailService(RestTemplate restTemplate) {
 	this.restTemplate = restTemplate;
